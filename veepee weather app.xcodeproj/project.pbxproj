@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17C3562A2C284F06000B9BBA /* veepee_weather_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356292C284F06000B9BBA /* veepee_weather_appApp.swift */; };
-		17C3562C2C284F06000B9BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3562B2C284F06000B9BBA /* ContentView.swift */; };
+		17C3562A2C284F06000B9BBA /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356292C284F06000B9BBA /* MainApp.swift */; };
 		17C3562E2C284F07000B9BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C3562D2C284F07000B9BBA /* Assets.xcassets */; };
 		17C356312C284F07000B9BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C356302C284F07000B9BBA /* Preview Assets.xcassets */; };
 		17C3563B2C284F07000B9BBA /* veepee_weather_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3563A2C284F07000B9BBA /* veepee_weather_appTests.swift */; };
 		17C356452C284F07000B9BBA /* veepee_weather_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356442C284F07000B9BBA /* veepee_weather_appUITests.swift */; };
 		17C356472C284F07000B9BBA /* veepee_weather_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356462C284F07000B9BBA /* veepee_weather_appUITestsLaunchTests.swift */; };
+		17C356582C28507C000B9BBA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356572C28507C000B9BBA /* HomeView.swift */; };
+		17C3565A2C28571F000B9BBA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356592C28571F000B9BBA /* NetworkService.swift */; };
+		17C3565D2C285F61000B9BBA /* ForecastList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3565C2C285F61000B9BBA /* ForecastList.swift */; };
+		17C3565F2C2861AA000B9BBA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3565E2C2861AA000B9BBA /* HomeViewModel.swift */; };
+		17C356652C28A657000B9BBA /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356642C28A657000B9BBA /* ListItem.swift */; };
+		17C356672C28AA12000B9BBA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356662C28AA12000B9BBA /* DetailView.swift */; };
+		17C356692C28B464000B9BBA /* CarousselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C356682C28B463000B9BBA /* CarousselView.swift */; };
+		17C3566B2C28BB16000B9BBA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3566A2C28BB16000B9BBA /* DetailViewModel.swift */; };
+		17C3566D2C29951D000B9BBA /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3566C2C29951D000B9BBA /* HomeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,7 @@
 
 /* Begin PBXFileReference section */
 		17C356262C284F06000B9BBA /* veepee weather app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "veepee weather app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17C356292C284F06000B9BBA /* veepee_weather_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veepee_weather_appApp.swift; sourceTree = "<group>"; };
-		17C3562B2C284F06000B9BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17C356292C284F06000B9BBA /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
 		17C3562D2C284F07000B9BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17C356302C284F07000B9BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17C356362C284F07000B9BBA /* veepee weather appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "veepee weather appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		17C356402C284F07000B9BBA /* veepee weather appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "veepee weather appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C356442C284F07000B9BBA /* veepee_weather_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veepee_weather_appUITests.swift; sourceTree = "<group>"; };
 		17C356462C284F07000B9BBA /* veepee_weather_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veepee_weather_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17C356572C28507C000B9BBA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		17C356592C28571F000B9BBA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		17C3565C2C285F61000B9BBA /* ForecastList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastList.swift; sourceTree = "<group>"; };
+		17C3565E2C2861AA000B9BBA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		17C356642C28A657000B9BBA /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		17C356662C28AA12000B9BBA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		17C356682C28B463000B9BBA /* CarousselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarousselView.swift; sourceTree = "<group>"; };
+		17C3566A2C28BB16000B9BBA /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		17C3566C2C29951D000B9BBA /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +110,9 @@
 		17C356282C284F06000B9BBA /* veepee weather app */ = {
 			isa = PBXGroup;
 			children = (
-				17C356292C284F06000B9BBA /* veepee_weather_appApp.swift */,
-				17C3562B2C284F06000B9BBA /* ContentView.swift */,
-				17C3562D2C284F07000B9BBA /* Assets.xcassets */,
+				17C356552C284FC1000B9BBA /* Resources */,
+				17C356532C284FAE000B9BBA /* App */,
+				17C356292C284F06000B9BBA /* MainApp.swift */,
 				17C3562F2C284F07000B9BBA /* Preview Content */,
 			);
 			path = "veepee weather app";
@@ -125,6 +141,62 @@
 				17C356462C284F07000B9BBA /* veepee_weather_appUITestsLaunchTests.swift */,
 			);
 			path = "veepee weather appUITests";
+			sourceTree = "<group>";
+		};
+		17C356532C284FAE000B9BBA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				17C356632C28A645000B9BBA /* Components */,
+				17C3565B2C285F4D000B9BBA /* Models */,
+				17C356562C28506B000B9BBA /* Home */,
+				17C356542C284FB7000B9BBA /* Network */,
+				17C356662C28AA12000B9BBA /* DetailView.swift */,
+				17C3566A2C28BB16000B9BBA /* DetailViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		17C356542C284FB7000B9BBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				17C356592C28571F000B9BBA /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		17C356552C284FC1000B9BBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17C3562D2C284F07000B9BBA /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17C356562C28506B000B9BBA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				17C356572C28507C000B9BBA /* HomeView.swift */,
+				17C3566C2C29951D000B9BBA /* HomeModel.swift */,
+				17C3565E2C2861AA000B9BBA /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17C3565B2C285F4D000B9BBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17C3565C2C285F61000B9BBA /* ForecastList.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17C356632C28A645000B9BBA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				17C356642C28A657000B9BBA /* ListItem.swift */,
+				17C356682C28B463000B9BBA /* CarousselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +329,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17C3562C2C284F06000B9BBA /* ContentView.swift in Sources */,
-				17C3562A2C284F06000B9BBA /* veepee_weather_appApp.swift in Sources */,
+				17C356652C28A657000B9BBA /* ListItem.swift in Sources */,
+				17C3565D2C285F61000B9BBA /* ForecastList.swift in Sources */,
+				17C356692C28B464000B9BBA /* CarousselView.swift in Sources */,
+				17C3562A2C284F06000B9BBA /* MainApp.swift in Sources */,
+				17C3566B2C28BB16000B9BBA /* DetailViewModel.swift in Sources */,
+				17C356672C28AA12000B9BBA /* DetailView.swift in Sources */,
+				17C3565A2C28571F000B9BBA /* NetworkService.swift in Sources */,
+				17C3565F2C2861AA000B9BBA /* HomeViewModel.swift in Sources */,
+				17C3566D2C29951D000B9BBA /* HomeModel.swift in Sources */,
+				17C356582C28507C000B9BBA /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +505,13 @@
 				DEVELOPMENT_TEAM = VRPSBVV63P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veepee Weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +536,13 @@
 				DEVELOPMENT_TEAM = VRPSBVV63P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Veepee Weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
